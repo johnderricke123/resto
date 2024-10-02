@@ -1,0 +1,30 @@
+body {
+
+}
+
+
+@media screen {
+
+div.dataTables_filter, 
+div.dataTables_paginate, 
+div.dataTables_info {
+visibility: visible;
+
+}
+
+
+}
+
+
+
+@media print {
+
+div.dataTables_filter, 
+div.dataTables_paginate, 
+div.dataTables_info {
+visibility: hidden!important;
+display: none!important;
+}
+}
+
+
